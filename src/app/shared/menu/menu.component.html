@@ -1,0 +1,13 @@
+<header>
+    <div class="container__menu-title">
+        <h1>Android Blog</h1>
+        <p>
+        Tudo aquilo que você sempre quis saber sobre o mundo Android, em um único lugar
+        </p>
+    </div>  
+    <nav class="container__menu-bar">
+        <a [routerLink]="['/']" [routerLinkActive]="['activated']" [routerLinkActiveOptions]="{exact: true}" >Home</a>
+        <a href="#">Notícias</a>
+        <a [routerLink]="['/contact']">Contato</a>
+    </nav>
+</header>
